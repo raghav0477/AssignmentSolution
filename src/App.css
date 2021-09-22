@@ -1,0 +1,56 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #413f3f;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: rgb(10, 158, 243);
+}
+
+td {
+  background-color: rgb(255, 255, 255);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+.actions{
+  border: 1px solid;
+  font-family: "Poppins";
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+button{
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background-color: #4A6FE0;
+}
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+::placeholder {
+  font-size: 1rem;
+}
+
+form * {
+  font-size: 28px;
+}
